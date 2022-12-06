@@ -81,7 +81,7 @@ color: black;
 #categoryGrid {
   margin: 0px 5%;
   display:grid ; 
-  grid-template-rows: 300px 100px 100px 100px;
+  grid-template-rows: 300px 150px 150px 20px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 
   "tt tt"
