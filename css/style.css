@@ -177,13 +177,3 @@ footer span{
   color: black;
   font-weight: bold;
 }
-
-@media screen and (max-width: 768px) {
-  body {
-    flex-direction: column;
-  }
-
-  main {
-    max-width: 1200px;
-  }
-}
