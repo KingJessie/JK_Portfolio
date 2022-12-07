@@ -6,11 +6,11 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
-  font-family: 'Montserrat';
 }
 
 body {
   background-color: #EDF2F4;
+  font-family: 'Montserrat';
 }
 
 
@@ -53,11 +53,12 @@ color: black;
   background-color: #EDAFB8;
 }
 
+
 .hero-banner{
   height: 500px;
   width: 100%;
   margin-bottom: 25px;
-  background-image: url(../images/hero04.png);
+  background-image: url(../images/background.png);
   background-size: cover;
   background-position: center;
 }
@@ -176,4 +177,51 @@ footer{
 footer span{
   color: black;
   font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px) {
+ 
+  body{
+    background-color: white;
+    font-size: 16px;
+  }
+
+  .container{
+    margin: 0;
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .navbar ul li a{
+  font-size: 20px;
+    
+  }
+
+  #about h2 {
+    font-size: 16px;
+
+  }
+
+  .content{
+    font-size: 15px;
+  }
+
+  #work h2{
+    font-size: 16px;
+
+  }
+
+  #contact h2{
+    font-size: 16px;
+
+  }
+
+  footer{
+    height: 3vh;
+  }
+  
+
 }
