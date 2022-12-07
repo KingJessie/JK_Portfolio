@@ -57,7 +57,7 @@ color: black;
   height: 500px;
   width: 100%;
   margin-bottom: 25px;
-  background-image: url(/images/hero04.png);
+  background-image: url(../images/hero04.png);
   background-size: cover;
   background-position: center;
 }
@@ -97,27 +97,27 @@ color: black;
 
 #TimelessTreasure {
     grid-area: tt;
-  background-image: url("/images/pic05.png");
+  background-image: url("../images/pic05.png");
 
 }
 #SnakeGame {
    grid-area: sn;
-  background-image: url("/images/pic3.jpg");
+  background-image: url("../images/pic3.jpg");
 }
 
 #Horiseon {
   grid-area: ho;
-  background-image: url("/images/banner01.jpeg");
+  background-image: url("../images/banner01.jpeg");
 }
 
 #Hangman {
    grid-area: hm;
-  background-image: url("/images/pic1.jpg");
+  background-image: url("../images/pic1.jpg");
 }
 
 #BookingSystem {
   grid-area: bs;
- background-image: url("/images/hero02.jpeg");
+ background-image: url("../images/hero02.jpeg");
 }
 
 #about {
