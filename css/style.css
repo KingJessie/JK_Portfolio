@@ -1,4 +1,7 @@
+/* URL to import Monserrat google font */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;800&display=swap');
+
+/* * Applies style to every page element */
 
 *{
   box-sizing: border-box;
@@ -133,6 +136,18 @@ color: black;
   border-right: 6px solid rgb(75, 74, 74);
  }
 
+ .content{
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.content img{
+  height: 30vh;
+  padding-bottom: 3%;
+  /* border-radius: 60%; */
+}
+
  #work {
   background-color: #D9D9D9;
   padding: 10px;
@@ -155,6 +170,7 @@ color: black;
   width: 90%;
   justify-content: space-around;
   text-align: center;
+  padding: 10px;
   
 }
 
@@ -191,6 +207,7 @@ footer span{
 }
 
 
+/* Media queries to apply different styles for different media screens e.g. Mobile or Tablet*/
 @media screen and (max-width: 768px) {
  
   body{
@@ -216,8 +233,13 @@ footer span{
 
   }
 
-  .content{
+  .content p{
+    padding-bottom: 6%;
     font-size: 15px;
+  }
+
+  .content img{
+    display: none;
   }
 
   #work h2{
